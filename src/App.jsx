@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Education from "./Components/Education";
 
 import "./styles.css";
 
@@ -24,15 +25,15 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "John Doe",
+  name: "Eugene Oyier",
   title: "Creative Enthusiast",
-  email: "john.doe@example.com",
-  gitHub: "johndoe123",
-  instagram: "johnny_d",
-  linkedIn: "john-doe",
-  medium: "johndoeblog",
-  twitter: "jd_creative",
-  youTube: "johnscreativity",
+  email: "eugeneoyier@example.com",
+  gitHub: "eugeneoyier",
+  instagram: "eugeneoyier",
+  linkedIn: "eugeneoyier",
+  medium: "eugeneoyier",
+  twitter: "eugeneoyier",
+  youTube: "eugeneoyier",
 };
 
 const primaryColor = "#4E567E";

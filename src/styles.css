@@ -12,10 +12,24 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 div#main {
-  display: flex;
+  display: flex;@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.your-element {
+  animation: slideInLeft 2s ease-in-out;
+}
   flex-direction: column;
   width: 100vw;
 }
